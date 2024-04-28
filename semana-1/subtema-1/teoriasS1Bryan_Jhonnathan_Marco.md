@@ -1,4 +1,4 @@
-                    *Introducción a React y JSX:*
+                    * Introducción a React y JSX: *
 
 React es una biblioteca de JavaScript que se utiliza para construir interfaces de usuario interactivas y reutilizables. Se basa en el concepto de componentes, que son bloques de construcción independientes que se pueden combinar para crear interfaces complejas.
 
