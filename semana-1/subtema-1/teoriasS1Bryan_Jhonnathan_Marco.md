@@ -4,7 +4,7 @@ React es una biblioteca de JavaScript que se utiliza para construir interfaces d
 
 JSX es una extensión de JavaScript que nos permite escribir código HTML dentro de JavaScript. JSX se usa en React para definir la estructura de los componentes y cómo se deben renderizar en la página, lo que facilita la creación de interfaces intuitivas y fáciles de mantener.
 
-                        *Vite:*
+                        **Vite:**
 
 Vite es una herramienta de construcción de aplicaciones web extremadamente rápida y flexible que se centra en la velocidad de desarrollo. Está diseñada para proyectos basados en tecnologías modernas como React, Vue.js y Svelte.
 Algunas características importantes de Vite son su capacidad para proporcionar un entorno de desarrollo rápido y eficiente mediante el uso de la importación de módulos en tiempo real (HMR) y la compilación rápida.
