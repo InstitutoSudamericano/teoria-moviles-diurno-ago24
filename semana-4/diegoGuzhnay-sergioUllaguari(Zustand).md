@@ -4,7 +4,7 @@
 
 Por: Sergio Iván Ullaguari & Diego Andres Guzhñay.
 
-                                                      Introduccion:
+## Teoria
 
 Zustand por lo que investigamos es una herramienta muy innovadora recientemente
 para mejorar el flujo de trabajo en el desarrollo de apps web utilizando React y TypeScript.
@@ -12,7 +12,7 @@ Combinando Zustand, la biblioteca de gestion de estado para React se implementa 
 
 Se explora como Zustand mejora de manera considerable el desarrollo de web modernas, hasta sus implementaciones mas avanzadas como gestion de estado pequeña, rapida y escalable que utiliza principios de flujo simplificados.
 
-                                                       Reflexión:
+## Reflexión:
 
 Zustand tiene un enfoque minimalista pero poderoso para la gestion de estado en React, demostrando ser util en la exploracion hacia otros componentes.
 Su API basada en hooks proporciona una experiencia de desarrollo comoda y familiar, que facilita su integracion en proyectos existentes y nuevos.
@@ -39,7 +39,7 @@ Ventajas:
 
 - Menos comunidad: La comunidad puede ser menos activa que otras bibliotecas de gestion mas establecidad.
 
-                                                         Analogía:
+## Analogía:
 
 Hay que imaginarse una casa en construccion que necesita un sistema de gestion para organizar todas las herramientas y materiales de construccion. En este escenario, Zustand seria como una caja de herramientas compacta pero robusta que propocionara todo lo necesario para mantener el sitio de construccion ordenado y eficiente.
 
@@ -49,7 +49,7 @@ Hay que imaginarse una casa en construccion que necesita un sistema de gestion p
 
     Soporte y Mantenimiento: Al igual que una caja de herramientas de calidad, Zustand viene con soporte integrado y actualizaciones periódicas para garantizar que siempre esté en óptimas condiciones. Siempre se puede contrar con él para ayudar a solucionar problemas y mantener la aplicación en funcionamiento.
 
-                    Metodología para el Uso de Zustand en proyectos de React
+                  ##  Metodología para el Uso de Zustand en proyectos de React
 
 1.  Instalación de Dependencias:
     Primero, se debe tener instaladas las dependencias necesarias. Utilizaremos zustand y @types/zustand para proporcionar tipado TypeScript.
@@ -107,6 +107,7 @@ const { currentUser } = useUserStore();
 // Utiliza el hook useUserStore para obtener el estado actual del usuario del store de Zustand. La destructuración se utiliza para extraer la propiedad currentUser del estado del usuario.
 
 return (
+
 <nav>
 {currentUser ? (
 <p>Welcome, {currentUser.name}!</p>
@@ -133,14 +134,14 @@ export default NavigationComponent;
 
 8.  Monitoreo y Mejora Continua:
     Monitorizar el rendimiento y la estabilidad de los stores de Zustand en producción y realiza ajustes según sea necesario. Estar atento a las actualizaciones de la biblioteca y aprovechar las nuevas características y mejoras que se introduzcan.
-                                                               Resumen:
+
+## Resumen:
 
 En resumen su implementacion practica se integra facilmente en proyectos de React, permitiendo a desarrolladores crear stores personalizados y acceder al estado global de manera sencilla.
 
 Ofreciendo una alternativa solida y eficiente para la gestion de estado en app web de React, especialmente cuando se busca una solucion ligera y compatible con TS, su simplicidad, rendimiento y compatibilidad lo convierte en una herramienta agil y muy valiosa para quienes buscan mejorar la calidad y la eficiencia de proyectos en React.
 
-                                                         Blibliografia:
-
+## Blibliografia:
 
 Patterson, C. (2021). "Introducing Zustand: The tiny State Manager for React". Medium. Disponible en: https://medium.com/swlh/introducing-zustand-the-tiny-state-manager-for-react-27c4f477b23e
 
