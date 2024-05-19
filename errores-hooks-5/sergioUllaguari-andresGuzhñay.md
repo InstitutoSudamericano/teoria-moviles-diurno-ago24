@@ -42,3 +42,15 @@ Al enfocarnos en crear interfaces de usuario dinamicas y reactivas los hooks ofr
 Es importante especificar dependencias explicitamente, minimizar las dependencias relevantes, usar useMemo para memorizar valores calculados, almacenar valores mutabes fuera de hooks de estado y usar copias inmutables, usar la opcion strict de TS para detectar errores de tipos.
 Los hooks deben ser ligibles y seguros para comprender el codigo.
 El manejo adecuado de dependencias previene errores, optimiza el rendimiento y genera codigo React con TS mas robusto.
+
+# Referencias
+
+Salvador Gutiérrez, A. (2021). BookStand: Aplicación multiplataforma de gestión de bibliotecas personales basada en React Native, Redux, Firebase y Cloud Messaging.
+
+https://es.react.dev/warnings/invalid-hook-call-warning
+
+https://keepcoding.io/blog/reglas-de-los-hooks-de-react/
+
+https://latteandcode.medium.com/react-hooks-y-typescript-f7e8b3f6cd2e
+
+https://dev.to/alexissossa/para-que-carajos-nos-sirven-las-reglas-de-los-hooks-en-react-js-31i3
